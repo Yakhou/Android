@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_qrcode"
+            android:icon="@drawable/ic_menu_qrcode"
+            android:title="生成二维码" />
+    </group>
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/action_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/action_about"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>

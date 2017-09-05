@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <TextView
+             android:textColor="@color/colorPrimary"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="15dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="运单号: "
+             android:textSize="@dimen/text_size_common"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ydnum"
+
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/text_size_common"/>
+    </LinearLayout>
+    <EditText
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="真实姓名"
+        android:textSize="@dimen/text_size_common"
+        android:gravity="center"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系电话"
+        android:textSize="@dimen/text_size_common"
+        android:gravity="center"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/address"
+
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="详细住址"
+        android:textSize="@dimen/text_size_common"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:layout_gravity="center"
+        android:textSize="17dp" />
+
+</LinearLayout>

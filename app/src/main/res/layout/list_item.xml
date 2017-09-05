@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <TextView
+        android:focusable="false"
+        android:id="@+id/ydnumInMain"
+        android:text="运单号:"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:focusable="false"
+        android:id="@+id/ydhao"
+        android:textSize="16sp"
+        android:textColor="#0e0e0e"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ydnumInMain"
+        android:layout_alignBottom="@+id/ydnumInMain"
+        android:layout_toEndOf="@+id/ydnumInMain"
+        android:layout_marginStart="20dp" />
+
+    <ImageView
+        android:focusable="false"
+        android:id="@+id/bitmap"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ydhao"
+        android:layout_marginStart="47dp"
+
+        />
+
+</RelativeLayout>
